@@ -1,5 +1,7 @@
 /*resources/scss/app.scss*/
 @import "~bootstrap/scss/bootstrap";
+@import './partials/variables';
+@import "@fortawesome/fontawesome-free/css/all.css";
 
 body {
     background-color: white;

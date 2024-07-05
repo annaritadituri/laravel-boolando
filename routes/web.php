@@ -14,5 +14,12 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
-});
+
+    $products = config('products');
+    $data = [
+        'title' => "Boolando",
+        'products' => $products
+    ];
+    return view('welcome', $data);
+
+})->name('home');
