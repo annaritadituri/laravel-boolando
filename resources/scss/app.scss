@@ -6,3 +6,24 @@
 body {
     background-color: white;
 }
+
+header {
+    background-color: $bg_header;
+    color: $white;
+
+    a {
+        text-decoration: none;
+        color: $white;
+        font-size: 0.8rem;
+    }
+
+    img {
+        height: 1.5rem;
+    }
+
+    button {
+        color: $white;
+        background-color: $bg_header;
+    }
+
+}
