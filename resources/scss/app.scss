@@ -27,3 +27,42 @@ header {
     }
 
 }
+
+footer {
+    color: $white;
+    background-color: $bg_footer;
+
+    .left {
+
+        li {
+            padding-right: 0.5rem;
+        }
+    }
+    .right {
+        
+        max-width: fit-content;
+
+        li {
+            padding-left: 0.5rem;
+        }
+
+    }
+
+    p {
+        font-size: 0.8rem;
+        font-weight: 600;
+    }
+
+    li {
+        list-style-type: none;
+
+        a {
+            font-size: 0.7rem;
+        }
+
+        img {
+            filter: invert(100%);
+        }
+    }
+
+}
