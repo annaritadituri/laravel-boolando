@@ -28,6 +28,55 @@ header {
 
 }
 
+.product {
+    text-align: start;
+    position: relative;
+
+    img {
+        width: 100%
+    }
+
+    .on-image {
+        position: absolute;
+        bottom: 100px;
+
+        span {
+            font-size: 0.7rem;
+            font-weight: 600;
+            color: $white;
+        };
+
+        .discount-percent {
+            background-color: $bg_discount;
+        }
+
+        .label {
+            background-color: $bg_label;
+        }
+    }
+
+    .brand-name {
+        color: gray;
+        font-size: 0.8rem;
+    }
+
+    >span {
+        font-size: 0.8rem;
+
+        &.sale {
+            color: $bg_discount;
+            font-weight: 600;
+        }
+
+        &.price {
+            text-decoration: line-through;
+            color: gray;
+            margin-left: 0.2rem;
+        }
+    }
+
+}
+
 footer {
     color: $white;
     background-color: $bg_footer;
